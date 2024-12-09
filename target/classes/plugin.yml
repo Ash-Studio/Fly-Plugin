@@ -1,0 +1,38 @@
+name: Fly
+version: '1.0-SNAPSHOT'
+main: me.ash.fly.Fly
+api-version: '1.21.3'
+
+commands:
+  fly:
+    description: Fly commands
+    usage: /<command> [add|remove|list|speed|toggle|time|status|increase|decrease] [player|speed|time]
+    aliases: [flyPlugin]
+    permission: FlyPlugin.use
+permissions:
+  FlyPlugin.use:
+    description: Allows use of fly commands
+    default: op
+  FlyPlugin.add:
+    description: Allows adding players to fly mode
+    default: op
+  FlyPlugin.remove:
+    description: Allows removing players from fly mode
+    default: op
+  FlyPlugin.list:
+    description: Allows listing flying players
+    default: op
+  FlyPlugin.speed:
+    description: Allows setting fly speed
+    default: op
+  FlyPlugin.toggle:
+    description: Allows toggling fly mode
+    default: op
+  FlyPlugin.time:
+    description: Allows setting fly time
+    default: op
+  FlyPlugin.status:
+    description: Allows checking fly status
+    default: op
+
+

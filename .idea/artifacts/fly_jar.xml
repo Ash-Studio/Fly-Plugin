@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="fly:jar">
+    <output-path>$USER_HOME$/Desktop/Paper 1.21.3/plugins</output-path>
+    <root id="archive" name="fly.jar">
+      <element id="module-output" name="fly" />
+    </root>
+  </artifact>
+</component>
